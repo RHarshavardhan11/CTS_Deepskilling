@@ -3,6 +3,7 @@ public class SingletonTest {
 
         Logger logger1 = Logger.getInstance();
         Logger logger2 = Logger.getInstance();
-        System.out.println(logger1 == logger2);
+        if(logger1 == logger2)
+        System.out.println("Only one instance exists.");
     }
 }
