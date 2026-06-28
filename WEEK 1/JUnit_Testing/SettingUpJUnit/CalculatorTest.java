@@ -1,4 +1,4 @@
-package src.test;
+
 import org.junit.Test;
 
 import src.main.Calculator;
